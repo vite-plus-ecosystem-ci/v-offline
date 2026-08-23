@@ -1,0 +1,25 @@
+.npmrc
+  s_71a3b49c0bdf46::t_20788f852a96ab 3-4
+example/package.json
+  s_71a3b49c0bdf46::t_8682357300a25d 7-9,23
+example/vite.config.ts
+  s_71a3b49c0bdf46::t_dd7ace2c978579 1
+package.json
+  s_71a3b49c0bdf46::t_c7ca241a6be2af 62-63
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "86460f938a7da09e548b67fec60b54d31d5345c0",
+  "prompts": {},
+  "sessions": {
+    "s_71a3b49c0bdf46": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d1129124-4b50-493c-a6b0-9bd30f8b1e4d",
+        "model": "claude-opus-5"
+      },
+      "human_author": "MK <fengmk2@gmail.com>"
+    }
+  }
+}
