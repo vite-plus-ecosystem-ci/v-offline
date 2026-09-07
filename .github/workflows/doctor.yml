@@ -28,5 +28,5 @@ jobs:
           fail-on: error
           api-key: ${{ secrets.DOCTOR_API_KEY }}
           project: ${{ github.repository }}
-          pr-comment: true
+          pr-comment: false
           comment-mode: both
