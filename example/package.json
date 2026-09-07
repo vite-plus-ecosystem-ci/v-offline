@@ -4,9 +4,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vue-tsc && vite build",
-    "preview": "vite preview"
+    "dev": "vp dev",
+    "build": "vue-tsc && vp build",
+    "preview": "vp preview"
   },
   "dependencies": {
     "ping.js": "^0.3.0",
@@ -20,7 +20,7 @@
     "sass": "^1.99.0",
     "tailwindcss": "^4.3.0",
     "typescript": "^6.0.3",
-    "vite": "^8.0.13",
+    "vite": "catalog:",
     "vue-tsc": "^3.3.0"
   }
 }

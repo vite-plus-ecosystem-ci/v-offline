@@ -22,9 +22,7 @@ export default defineConfig({
     sourcemap: true,
     dts: { vue: true },
     plugins: [Vue({ isProduction: true })],
-    deps: {
-      neverBundle: ['vue', 'ping.js'],
-    },
+    deps: { resolveDepSubpath: true, neverBundle: ['vue', 'ping.js'] },
   },
   fmt: {
     printWidth: 80,
