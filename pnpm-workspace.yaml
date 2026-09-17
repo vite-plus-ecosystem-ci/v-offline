@@ -4,3 +4,24 @@ packages:
 allowBuilds:
   '@parcel/watcher': true
   esbuild: true
+catalog:
+  vite: npm:@voidzero-dev/vite-plus-core@0.0.0-commit.fba044cf40fea5a7bf4a2ee97822f174eab33dfa
+  vite-plus: 0.0.0-commit.fba044cf40fea5a7bf4a2ee97822f174eab33dfa
+minimumReleaseAgeExclude:
+  - '@voidzero-dev/vite-plus-core@0.0.0-commit.fba044cf40fea5a7bf4a2ee97822f174eab33dfa'
+  - '@voidzero-dev/vite-plus-darwin-arm64@0.0.0-commit.fba044cf40fea5a7bf4a2ee97822f174eab33dfa'
+  - '@voidzero-dev/vite-plus-darwin-x64@0.0.0-commit.fba044cf40fea5a7bf4a2ee97822f174eab33dfa'
+  - '@voidzero-dev/vite-plus-linux-arm64-gnu@0.0.0-commit.fba044cf40fea5a7bf4a2ee97822f174eab33dfa'
+  - '@voidzero-dev/vite-plus-linux-arm64-musl@0.0.0-commit.fba044cf40fea5a7bf4a2ee97822f174eab33dfa'
+  - '@voidzero-dev/vite-plus-linux-x64-gnu@0.0.0-commit.fba044cf40fea5a7bf4a2ee97822f174eab33dfa'
+  - '@voidzero-dev/vite-plus-linux-x64-musl@0.0.0-commit.fba044cf40fea5a7bf4a2ee97822f174eab33dfa'
+  - '@voidzero-dev/vite-plus-win32-arm64-msvc@0.0.0-commit.fba044cf40fea5a7bf4a2ee97822f174eab33dfa'
+  - '@voidzero-dev/vite-plus-win32-x64-msvc@0.0.0-commit.fba044cf40fea5a7bf4a2ee97822f174eab33dfa'
+  - vite-plus@0.0.0-commit.fba044cf40fea5a7bf4a2ee97822f174eab33dfa
+overrides:
+  vite@*: 'catalog:'
+peerDependencyRules:
+  allowAny:
+    - vite
+  allowedVersions:
+    vite: '*'
