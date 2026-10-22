@@ -28,5 +28,9 @@ jobs:
           fail-on: error
           api-key: ${{ secrets.DOCTOR_API_KEY }}
           project: ${{ github.repository }}
-          pr-comment: true
+          # Ecosystem-ci smoke test: posting the PR comment needs write access
+          # that this run's token lacks ("Resource not accessible by
+          # integration"; upstream PRs fail the same way). The audit and its
+          # gate still run.
+          pr-comment: ${{ github.repository_owner != 'vite-plus-ecosystem-ci' }}
           comment-mode: both
