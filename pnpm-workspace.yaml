@@ -10,3 +10,35 @@ minimumReleaseAgeExclude:
   - '@voidzero-dev/*'
   - wrangler
   - miniflare
+  - '@oxc-project/runtime@0.157.0'
+  - '@oxc-project/types@0.157.0'
+  - '@oxfmt/binding-android-arm-eabi@0.76.0'
+  - '@oxfmt/binding-android-arm64@0.76.0'
+  - '@oxfmt/binding-darwin-arm64@0.76.0'
+  - '@oxfmt/binding-darwin-x64@0.76.0'
+  - '@oxfmt/binding-freebsd-x64@0.76.0'
+  - '@oxfmt/binding-linux-arm-gnueabihf@0.76.0'
+  - '@oxfmt/binding-linux-arm-musleabihf@0.76.0'
+  - '@oxfmt/binding-linux-arm64-gnu@0.76.0'
+  - '@oxfmt/binding-linux-arm64-musl@0.76.0'
+  - '@oxfmt/binding-linux-ppc64-gnu@0.76.0'
+  - '@oxfmt/binding-linux-riscv64-gnu@0.76.0'
+  - '@oxfmt/binding-linux-riscv64-musl@0.76.0'
+  - '@oxfmt/binding-linux-s390x-gnu@0.76.0'
+  - '@oxfmt/binding-linux-x64-gnu@0.76.0'
+  - '@oxfmt/binding-linux-x64-musl@0.76.0'
+  - '@oxfmt/binding-openharmony-arm64@0.76.0'
+  - '@oxfmt/binding-win32-arm64-msvc@0.76.0'
+  - '@oxfmt/binding-win32-ia32-msvc@0.76.0'
+  - '@oxfmt/binding-win32-x64-msvc@0.76.0'
+  - oxfmt@0.76.0
+catalog:
+  vite: npm:@voidzero-dev/vite-plus-core@0.0.0-commit.943ee4a9e322a7ad4b1b4113f844cd541a10b159
+  vite-plus: 0.0.0-commit.943ee4a9e322a7ad4b1b4113f844cd541a10b159
+overrides:
+  vite@*: 'catalog:'
+peerDependencyRules:
+  allowAny:
+    - vite
+  allowedVersions:
+    vite: '*'

@@ -4,10 +4,10 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vp dev",
     "typecheck": "vue-tsc --noEmit",
-    "build": "vue-tsc --noEmit && vite build",
-    "preview": "vite preview"
+    "build": "vue-tsc --noEmit && vp build",
+    "preview": "vp preview"
   },
   "dependencies": {
     "ping.js": "^0.3.0",
@@ -19,7 +19,7 @@
     "@vitejs/plugin-vue": "^6.0.10",
     "tailwindcss": "^4.3.3",
     "typescript": "^6.0.3",
-    "vite": "^8.3.5",
+    "vite": "catalog:",
     "vue-tsc": "^3.3.14"
   }
 }
