@@ -108,3 +108,4 @@ sw.*
 
 # Cloudflare
 .wrangler
+.vitest/
