@@ -10,3 +10,13 @@ minimumReleaseAgeExclude:
   - '@voidzero-dev/*'
   - wrangler
   - miniflare
+catalog:
+  vite: npm:@voidzero-dev/vite-plus-core@0.0.0-commit.8ec336609b9c3dee6c269c374904b008233dadb8
+  vite-plus: 0.0.0-commit.8ec336609b9c3dee6c269c374904b008233dadb8
+overrides:
+  vite@*: 'catalog:'
+peerDependencyRules:
+  allowAny:
+    - vite
+  allowedVersions:
+    vite: '*'
